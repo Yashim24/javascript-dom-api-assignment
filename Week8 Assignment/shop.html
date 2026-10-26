@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyShopping List</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            display: list-item;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+
+        ol {
+            background-color: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+
+         h1 {
+            color: lightgreen;
+        }
+
+        #shoppingList {
+            text-align: left;
+            margin-top: 20px;
+            color: #dd1717;
+        }
+        button{
+            background-color: lightgreen;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #2563eb;
+        }
+        #result {
+            margin-top: 20px;
+            font-size: 18px;
+            color: #490bf1;
+        }
+    </style>
+</head>
+<body>
+    <h1>Shopping List</h1>
+
+    <ol id="shoppingList"></ol>
+
+    <button id="totalButton">Show Total Items</button>
+
+    <p id="result"></p>
+
+    <script src="shop.js"></script>
+</body>
+</html>
